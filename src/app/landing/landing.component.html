@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<body class="body">
+  <header>
+    <h2>NC English Corner</h2>
+    <nav>
+      <li><a [routerLink]="" fragment="location" (click)="onAnchorClick()">Location</a></li>
+      <li><a [routerLink]="" fragment="contact" (click)="onAnchorClick()">Contact</a></li>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="background-image" style="background-image: url(assets/img/main.jpg);"></div>
+    <div class="hero-content-area">
+      <h1>NC English Corner</h1>
+      <h3>A Group of Chinese who want to share views in English</h3>
+      <a [routerLink]="" fragment="contact" (click)="onAnchorClick()" class="btn">Join Us Now</a>
+    </div>
+  </section>
+  
+  <section class="timeAndLocation" id="location">
+    <h3 class="title">Time & Location</h3>
+    <hr>
+        <p>
+          Wednesday 7:00PM - 9:30PM 
+        </p>
+        <p>
+          Bad Neighbors(扰邻咖啡厅, nearby a foreign book store)
+        </p>
+        <p>
+          No.438 Fengqi Road, Hangzhou
+        </p>
+        
+  </section>
+
+  <section class="sessions">
+    <h3 class="title">Various Discussion Forms</h3>
+    <hr>
+    <ul class="grid">
+      <li>
+        <i class="fa fa-compass fa-4x"></i>
+        <h4>Pre-Sessional Free Talk</h4>
+        <p>Warming-up session. Casual talk in English with people who come early.</p>
+      </li>
+      <li>
+        <i class="fas fa-child fa-4x"></i>
+        <h4>Self-Introduction</h4>
+        <p>Breif self-intro, and if you like, you may share something happened recently in your life.</p>
+      </li>
+      <li>
+        <i class="fas fa-comments fa-4x"></i>
+        <h4>Topic Discussions</h4>
+        <p>Main session of our activity. Host will bring two topics about current affairs. Topics will be released in <a [routerLink]="" fragment="contact" (click)="onAnchorClick()">Wechat public account</a> several days in advance.</p>
+      </li>
+      <li>
+        <i class="fas fa-chalkboard-teacher fa-4x"></i>
+        <h4>Presentation</h4>
+        <p>Someone in NC may have something interesting to share before the topic discussions. There may not be presentation every week.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h3 class="title">Rules & Payment</h3>
+    <p>
+      No Chinese, no cellphones unless checking words in E-dic
+    </p>
+    <p>
+      Dinner or beverage, any consumption is fine.
+    </p>
+    </section>
+
+  <section class="contact" id="contact">
+    <h3 class="title" >Follow Us on Wechat! </h3>
+    <p>Want to know more about our activities, or come to join our discussions? Just follow us on Wechat! Topics in every week's English conner will be release in advance. Our QR Code: </p>
+    <hr>
+    <div class="QRcode" style="background-image: url(assets/img/QRcode.jpg);"></div>
+
+    <p>
+      Or send email to us: <br>
+      <i class="fas fa-envelope fa-x"></i> NCEnglishConner@gamil.com
+    </p>
+
+  </section>
+
+ <footer>
+    <ul>
+      <li><i class="fab fa-weixin"></i></li>
+      <li><i class="fab fa-google"></i></li>
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-font-awesome"></i></li>
+    </ul>
+    <p>Made by <a href="http://tutorialzine.com/" target="_blank">tutorialzine</a>.</p>
+    <p>ALL RIGHT RESERVED.</p>
+  </footer>
+
+</body>
