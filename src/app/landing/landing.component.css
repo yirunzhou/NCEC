@@ -19,6 +19,7 @@ html {
 
 p{
 	font-weight: 300;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 ul,
@@ -74,6 +75,7 @@ hr {
 
 section h3.title {
 	text-transform: capitalize;
+	color: rgba(0, 0, 0, 0.8);
 	font: bold 32px "Open Sans", sans-serif;
 	margin-bottom: 30px;
 	text-align: center;
@@ -91,6 +93,23 @@ section p {
 @media (max-width: 800px) {
 	section {
 		padding: 50px 20px;
+	}
+	
+	section h3.title {
+		text-transform: capitalize;
+		font: bold 24px "Open Sans", sans-serif;
+		margin-bottom: 12px;
+		text-align: center;
+	}
+	
+	section p{
+		font-size: 14px;
+		font-family: sans-serif;
+		max-width: 775px;
+		line-height: 2;
+		padding: 0 14px;
+		margin-bottom: 18px;
+		text-align: center;
 	}
 }
 
@@ -207,17 +226,20 @@ header nav li {
 	}
 
 	.hero h1 {
-		font-size: 48px;
+		font-size: 40px;
 	}
 
 	.hero h3 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.hero a.btn {
+		font-size: 15px;
+		font-family: Quicksand, arial;
 		padding: 15px 40px;
 	}
 }
+
 
 /*timeAndLocation Section*/
 
@@ -273,8 +295,9 @@ header nav li {
 }
 
 .sessions .grid li h4 {
+	font-family: Quicksand, Arial;
 	font-size: 22px;
-	font-weight: 550;
+	font-weight: 600;
 	margin: 25px 0;
 }
 
